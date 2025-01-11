@@ -55,7 +55,7 @@ nav {
 }
 .navbar div ul {
   position: relative;
-  left: 40%;
+  left: 30%;
 }
 .navbar div ul li a {
   color: var(--secondColor);
@@ -129,7 +129,7 @@ nav {
 
 /* services start */
 .title {
-  height: 950px;
+  height: 1000px;
   background-color: var(--fourthColor);
 }
 .title .title-section {
@@ -145,7 +145,6 @@ nav {
 .title .skills .box {
   padding-top: 20px;
   background-color: var(--mainColor);
-  height: 360px;
 }
 .title .skills .box .icon {
   font-size: 40px;
@@ -204,6 +203,12 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 100%;
+}
+.background div {
+  /* background-color: red; */
+  width: 90%;
+  margin: auto;
 }
 .test {
   height: 100vh;
@@ -218,20 +223,9 @@ nav {
   width: 70%;
   margin: auto;
 }
-.card1 div .special1 {
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  border: 8px solid black;
-  outline: 3px solid var(--thirdColor);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
 .card1 div .special2 {
   width: 180px;
-  height: 170px;
+  height: 180px;
   border-radius: 50%;
   border: 8px solid black;
   outline: 3px solid var(--thirdColor);
@@ -347,9 +341,6 @@ footer {
     height: 800px;
     margin-bottom: 20%;
   }
-  .card1 div .special1 {
-    width: 40%;
-  }
   .blog {
     height: 1700px;
     margin-bottom: 20%;
@@ -368,7 +359,37 @@ footer {
     margin-bottom: 10%;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  .title {
+    height: 1900px;
+  }
+  .about div img {
+    width: 90%;
+  }
+  .portfolio {
+    height: 3500px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .portfolio {
+    height: 2800px;
+  }
+  .background {
+    height: 1100px;
+  }
+  .background div .test div{
+    width: 100%;
+    margin: auto;
+  }
+  .card1 div {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .title {
+    height: 1900px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .home {
     width: 100%;
@@ -378,7 +399,7 @@ footer {
     height: 500px;
   }
   .title {
-    height: 1300px;
+    height: 1200px;
   }
   .background {
     height: 750px;

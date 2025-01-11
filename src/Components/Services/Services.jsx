@@ -30,24 +30,15 @@ export default function Services() {
               and optimizing performance for high-traffic environments.
             </p>
           </div>
-          <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3 mt-4 ">
-            <i className="fa-brands fa-square-js text-warning icon mb-3"></i>
+
+          <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3">
+          <i className="fa-brands fa-square-js text-warning icon mb-3"></i>
             <h3 className="text-capitalize mb-3">javascript</h3>
             <p>
-              Expert in modern JavaScript (ES6+) for creating interactive and
+            Expert in modern JavaScript (ES6+) for creating interactive and
               dynamic web applications. Proficient in DOM manipulation,
               asynchronous programming, and utilizing frameworks and libraries
               to enhance functionality.
-            </p>
-          </div>
-          <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3">
-            <i className="fa-solid fa-crop icon mb-3"></i>
-            <h3 className="text-capitalize mb-3">responsive design</h3>
-            <p>
-              Adaptable user interfaces to ensure seamless experiences across
-              all devices and screen sizes. Proficient in using CSS frameworks,
-              media queries, and modern design principles to enhance usability
-              and accessibility.
             </p>
           </div>
           <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3">
@@ -58,6 +49,16 @@ export default function Services() {
               flexible and efficient data storage. Developing and maintaining
               robust relational databases using MySQL. Skilled in writing
               complex SQL queries, optimizing database performance.
+            </p>
+          </div>
+          <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3">
+          <i className="fa-solid fa-crop icon mb-3"></i>
+            <h3 className="text-capitalize mb-3">responsive design</h3>
+            <p>
+            Adaptable user interfaces to ensure seamless experiences across
+              all devices and screen sizes. Proficient in using CSS frameworks,
+              media queries, and modern design principles to enhance usability
+              and accessibility.
             </p>
           </div>
           <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3">

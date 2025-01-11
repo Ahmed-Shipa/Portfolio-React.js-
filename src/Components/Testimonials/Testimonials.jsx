@@ -18,34 +18,11 @@ export default function Testimonials() {
       <div className="background">
         <div className="container">
           <Slider {...settings}>
-            <section className=" test">
+            <section className="test">
               <div className="row w-75 m-auto position-relative top-50 translate-middle-y">
                 <div className="col-lg-11 text-center">
                   <i className="fa-brands fa-slack icon1"></i>
-                  <p className="mb-3 p-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Tempora voluptates excepturi magni, voluptatibus voluptatem
-                    doloremque tempore.
-                  </p>
-                  <div className="card1 h-50">
-                    <div className="img-fluid">
-                      <img
-                        className="shadow-lg m-auto special1"
-                        src={img1}
-                        alt=""
-                      />
-                    </div>
-                    <h3 className="mt-3 p-2">Alamin musa</h3>
-                    <p>Frontend Developer</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section className=" test">
-              <div className="row w-75 m-auto position-relative top-50 translate-middle-y">
-                <div className="col-lg-11 text-center">
-                  <i className="fa-brands fa-slack icon1"></i>
-                  <p className="mb-3 p-3">
+                  <p className="mb-3 p-3 w-100">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora voluptates excepturi magni, voluptatibus voluptatem
                     doloremque tempore.
@@ -59,16 +36,39 @@ export default function Testimonials() {
                       />
                     </div>
                     <h3 className="mt-3 p-2">Alex Ander</h3>
+                    <p>Frontend Developer</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="test">
+              <div className="row w-75 m-auto position-relative top-50 translate-middle-y">
+                <div className="col-lg-11 text-center">
+                  <i className="fa-brands fa-slack icon1"></i>
+                  <p className="mb-3 p-3 w-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora voluptates excepturi magni, voluptatibus voluptatem
+                    doloremque tempore.
+                  </p>
+                  <div className="card1 h-50">
+                    <div className="img-fluid">
+                      <img
+                        className="shadow-lg m-auto special2"
+                        src={img1}
+                        alt=""
+                      />
+                    </div>
+                    <h3 className="mt-3 p-2">Alamin musa</h3>
                     <p>Backend Developer</p>
                   </div>
                 </div>
               </div>
             </section>
-            <section className=" test">
+            <section className="test">
               <div className="row w-75 m-auto position-relative top-50 translate-middle-y">
                 <div className="col-lg-11 text-center">
                   <i className="fa-brands fa-slack icon1"></i>
-                  <p className="mb-3 p-3">
+                  <p className="mb-3 p-3 w-100">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Tempora voluptates excepturi magni, voluptatibus voluptatem
                     doloremque tempore.
