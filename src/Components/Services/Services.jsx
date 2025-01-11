@@ -18,7 +18,7 @@ export default function Services() {
               and integrating modern libraries to enhance functionality.
             </p>
           </div>
-          <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3 mt-4 ">
+          <div data-aos="flip-left"  className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3 mt-4">
             <i
               className="fab fa-node-js text-success me-2 icon mb-3"
               aria-hidden="true"
@@ -31,7 +31,7 @@ export default function Services() {
             </p>
           </div>
 
-          <div data-aos="flip-left" className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3">
+          <div data-aos="flip-left"  className="col-lg-3 col-md-5 col-sm-10 text-center box shadow-lg rounded-3 mt-4">
           <i className="fa-brands fa-square-js text-warning icon mb-3"></i>
             <h3 className="text-capitalize mb-3">javascript</h3>
             <p>
