@@ -1,5 +1,5 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import About from "./Components/About/About";
 import Blog from "./Components/Blog/Blog";
 import Contact from "./Components/Contact/Contact";
@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   // set the routes
-  let routes = createBrowserRouter([
+  let routes = createHashRouter([
     // main layout
     {
       path: "",
